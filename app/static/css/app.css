@@ -1,3 +1,83 @@
 body {
-    padding-top: 5rem;
+    padding-top: 50px;
+}
+
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.left, .right{
+    
+    
+    background-color: green;
+}
+.picture{
+    border-radius: 50%;
+}
+
+.card {
+    margin: 70px auto;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.image-layer {
+    padding-bottom: 20px;
+    background: rgba(73,156,234,1);
+    background: -moz-linear-gradient(-45deg, rgba(73,156,234,1) 0%, rgba(18,92,161,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(73,156,234,1)), color-stop(100%, rgba(18,92,161,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(73,156,234,1) 0%, rgba(18,92,161,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(73,156,234,1) 0%, rgba(18,92,161,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(73,156,234,1) 0%, rgba(18,92,161,1) 100%);
+    background: linear-gradient(-45deg, rgba(73,156,234,1) 0%, rgba(18,92,161,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499cea', endColorstr='#125ca1', GradientType=1 );
+}
+
+.img-border img {
+    height: 150px;
+}
+
+.img-border {
+    border-radius: 100%;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    margin: 30px auto;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 21px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 21px 5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 21px 5px rgba(0,0,0,0.3);
+}
+.image-layer h3, .image-layer p {
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card-body .row{
+    margin: auto;
+}
+.card-body p, .card-body span {
+    text-align: center;
+}
+
+
+.card-body .row .col p {
+    font-size: 10px;
+}
+
+.card-body .row div span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
 }

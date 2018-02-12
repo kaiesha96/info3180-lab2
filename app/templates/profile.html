@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="card" style="width: 18rem;">
+    <div class="image-layer">
+        <div class="img-border">
+            <img class="card-img-top" src="{{url_for('static',filename='pic.jpg')}}" alt="Shaniel Wallace">
+        </div>
+        <h3>{{name}}</h3>
+        <p>@{{uname}}</p>
+        <p>{{location}}</p>
+        <p>{{joined}}</p>
+    </div>
+    
+  
+  <div class="card-body">
+    <p class="card-text text-muted">A baddie all day and night</p>
+    <div class="row">
+        <div class="col">
+            <span>{{posts}}</span>
+            <p class="text-muted">Posts</p>
+        </div>
+        <div class="col">
+            <span>{{following}}</span>
+            <p class="text-muted">Following</p>
+        </div>
+        <div class="col">
+            <span>{{followers}}</span>
+            <p class="text-muted">Followers</p>
+        </div>
+        
+        <button class="button">Follow</button>
+    </div>
+  </div>
+</div>
+{% endblock %}
